@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolves expects a cacheMatrix and an arbitrary number of solve arguments as input.
-## If the inverse is known it will be retrieve, otherwise it will be computed and stored.
+## If the inverse is known it will be retrieved, otherwise it will be computed and stored.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
