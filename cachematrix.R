@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix creates a list of functions that provide
+## read and write access to a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolves expects a cacheMatrix and an arbitrary number of solve arguments as input.
+## If the inverse is known it will be retrieve, otherwise it will be computed and stored.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
